@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: black;
+   color: white;
+   background-image: url('/logo/banner.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+}
+.container{
+    display: flex;
+    padding-left: 200px;
+    margin-top: 100px;
+
+}
+#header{
+    color: rgba(255, 0, 0, 0.539);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Arial','sans-serif';
+}
+#language-btn{
+    gap: 100px;
+    justify-content: space-between;
+    margin-left: 1000px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(224, 219, 219, 0.539);
+    color: black;
+}
+#signin-btn{
+
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(186, 9, 9, 0.667);
+    color:whitesmoke;
+} 
+.text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    padding:100px;
+
+}
+#text-header{
+    text-transform: capitalize;
+    color: seashell;
+    
+}
+#mail-input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(148, 4, 4, 0.539);
+    color: black;
+}
+ button a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+

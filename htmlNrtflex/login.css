@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/logo/images.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    margin-top: 150px;
+    margin-left: 600px;
+    padding: 100px;
+    position: fixed;
+    
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width:500px ;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+#sign{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.909);
+    background-color: gray;
+    width: 100px;
+    border-radius: 10px;
+    margin: 50px 0px 0px 50px;
+    
+}
+#username
+{
+  margin:50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+
+}
+#usr{
+    margin: 10px 50px 50px 50px;
+    padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin:50px
+}
+#login-btn{
+    padding: 10px;
+    color: black;
+    background-color: tomato;
+    
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}

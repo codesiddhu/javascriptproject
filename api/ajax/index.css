@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+    
+}
+h1{
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    background-color: aliceblue;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#container{
+    background-color: rgba(127, 255, 212, 0.313);
+}
+#btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 30%;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 1px 4px 8px ;
+}
+
+
